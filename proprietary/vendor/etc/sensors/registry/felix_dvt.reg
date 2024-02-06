@@ -80,9 +80,15 @@ reg_script=felix_dvt.reg
   priority=0
 +/dev/lsm6dsv/0/accel
   orientation_transform=-1 -2 3
+  fac_cal_transform=0.99943 -0.00101 -0.00309 0.00031 0.99922 0.00052 0.00892 -0.00022 0.99822 0.05323 -0.08249 0.00037
+  temp=27.42943
+  temp_sensitivity=-0.00092 -0.00032 0.0016
   name=LSM6DSV Accelerometer 0
 +/dev/lsm6dsv/0/gyro
   orientation_transform=-1 -2 3
+  fac_cal_transform=0.99326 0.00155 -0.00144 -0.00276 0.99469 0.00123 0.00134 -0.00175 0.99875 -0.00027 -0.0002 -0.00152
+  temp=27.42943
+  temp_sensitivity=0.00003 -0.00009 -0.00006
   name=LSM6DSV Gyroscope 0
 +/dev/lsm6dsv/0/temp
   name=LSM6DSV Temperature 0
@@ -113,9 +119,15 @@ reg_script=felix_dvt.reg
   priority=1
 +/dev/lsm6dsv/1/accel
   orientation_transform=2 1 -3
+  fac_cal_transform=0.9994 0.00296 -0.00767 -0.00274 0.99929 -0.00516 0.00795 0.0106 0.99964 0.09986 -0.04608 -0.01553
+  temp=22.98944
+  temp_sensitivity=0.0004 0.00234 -0.00218
   name=LSM6DSV Accelerometer 1
 +/dev/lsm6dsv/1/gyro
   orientation_transform=2 1 -3
+  fac_cal_transform=0.99654 0.00041 -0.00727 -0.00027 0.99771 -0.00471 0.00709 0.00422 0.99887 -0.00086 0.001 -0.0032
+  temp=22.98944
+  temp_sensitivity=0.0001 -0.00003 0.0001
   name=LSM6DSV Gyroscope 1
 +/dev/lsm6dsv/1/temp
   name=LSM6DSV Temperature 1
@@ -192,6 +204,10 @@ wireless_voltage=/sys/class/power_supply/wireless/voltage_now
   intr_id=37
   min_period_us=25000
 +/dev/icp20100/0/baro
+  fac_cal_transform=1.0 -0.38530
+  temp=29.88273
+  temp_intercept=-0.27661
+  temp_sensitivity=-0.00304
 +/dev/icp20100/0/temp
 
 # ALSP1 (TCS37013)
