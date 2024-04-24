@@ -12,7 +12,7 @@ $(call add-radio-file-sha1-checked,radio/bl2.img,a711ef876850399a80b896fb6ef58a9
 $(call add-radio-file-sha1-checked,radio/bl31.img,68879ff8fd4a9dab68b3636939ef81a7eb9eddfe)
 $(call add-radio-file-sha1-checked,radio/gsa.img,9995b35da4152cf47dec6d5ab5ec2f5a874c1634)
 $(call add-radio-file-sha1-checked,radio/ldfw.img,fd0846206a3ccfac90d3f264c8ded0f01ddded64)
-$(call add-radio-file-sha1-checked,radio/modem.img,45165132f58377117fd2e7bb594cd48692b4b27a)
+$(call add-radio-file-sha1-checked,radio/modem.img,a675185b32631168b217ac101cfbd1b60a7876b8)
 $(call add-radio-file-sha1-checked,radio/pbl.img,2d69903d49f761784048bf7902698ec36cc025cb)
 $(call add-radio-file-sha1-checked,radio/tzsw.img,a53542c68ad7d629286fb15367bbb059903b172f)
 
