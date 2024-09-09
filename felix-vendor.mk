@@ -1870,7 +1870,6 @@ PRODUCT_PACKAGES += \
     libc2filterplugin \
     libdisplaycolor \
     libedgetpu_client.google \
-    libedgetpu_util \
     libfvsam_prm_parser \
     libgc2_av1_dec \
     libgc2_base \
@@ -1948,6 +1947,7 @@ PRODUCT_PACKAGES += \
     libdeccfg \
     libdeeptouch \
     libedgetpu_tflite_compiler \
+    libedgetpu_util \
     libgril_oem-google \
     libgxp \
     libmodem_svc_proto_legacy \
