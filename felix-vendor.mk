@@ -116,6 +116,7 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
     com.google.android.camerax.extensions \
+    felix-services \
     google-ril \
     oemrilhook \
     vendor.google.edgetpu_app_service@1.0-service.xml \
