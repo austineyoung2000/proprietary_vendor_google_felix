@@ -3,10 +3,10 @@
         <identifier>0</identifier>
         <name>CLOSED</name>
         <properties>
-            <property>PROPERTY_POLICY_CANCEL_OVERRIDE_REQUESTS</property>
-            <property>PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_CLOSED</property>
-            <property>PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_OUTER_PRIMARY</property>
-            <property>PROPERTY_POWER_CONFIGURATION_TRIGGER_SLEEP</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_CANCEL_OVERRIDE_REQUESTS</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_CLOSED</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_OUTER_PRIMARY</property>
+            <property>com.android.server.policy.PROPERTY_POWER_CONFIGURATION_TRIGGER_SLEEP</property>
         </properties>
         <conditions>
             <sensor>
@@ -31,9 +31,9 @@
         <identifier>1</identifier>
         <name>HALF_OPENED</name>
         <properties>
-            <property>PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_HALF_OPEN</property>
-            <property>PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
-            <property>PROPERTY_POWER_CONFIGURATION_TRIGGER_WAKE</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_HALF_OPEN</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
+            <property>com.android.server.policy.PROPERTY_POWER_CONFIGURATION_TRIGGER_WAKE</property>
         </properties>
         <conditions>
             <sensor>
@@ -50,9 +50,9 @@
         <identifier>2</identifier>
         <name>OPENED</name>
         <properties>
-            <property>PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_OPEN</property>
-            <property>PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
-            <property>PROPERTY_POWER_CONFIGURATION_TRIGGER_WAKE</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_HARDWARE_CONFIGURATION_FOLD_IN_OPEN</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
+            <property>com.android.server.policy.PROPERTY_POWER_CONFIGURATION_TRIGGER_WAKE</property>
         </properties>
     </device-state>
 
@@ -60,23 +60,23 @@
         <identifier>3</identifier>
         <name>REAR_DISPLAY_STATE</name>
         <properties>
-            <property>PROPERTY_EMULATED_ONLY</property>
-            <property>PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_OUTER_PRIMARY</property>
-            <property>PROPERTY_POLICY_AVAILABLE_FOR_APP_REQUEST</property>
-            <property>PROPERTY_FEATURE_REAR_DISPLAY</property>
+            <property>com.android.server.policy.PROPERTY_EMULATED_ONLY</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_OUTER_PRIMARY</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_AVAILABLE_FOR_APP_REQUEST</property>
+            <property>com.android.server.policy.PROPERTY_FEATURE_REAR_DISPLAY</property>
         </properties>
     </device-state>
     <device-state>
         <identifier>4</identifier>
         <name>CONCURRENT_INNER_DEFAULT</name>
         <properties>
-            <property>PROPERTY_EMULATED_ONLY</property>
-            <property>PROPERTY_POLICY_CANCEL_WHEN_REQUESTER_NOT_ON_TOP</property>
-            <property>PROPERTY_POLICY_UNSUPPORTED_WHEN_THERMAL_STATUS_CRITICAL</property>
-            <property>PROPERTY_POLICY_UNSUPPORTED_WHEN_POWER_SAVE_MODE</property>
-            <property>PROPERTY_POLICY_AVAILABLE_FOR_APP_REQUEST</property>
-            <property>PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
-            <property>PROPERTY_FEATURE_DUAL_DISPLAY_INTERNAL_DEFAULT</property>
+            <property>com.android.server.policy.PROPERTY_EMULATED_ONLY</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_CANCEL_WHEN_REQUESTER_NOT_ON_TOP</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_UNSUPPORTED_WHEN_THERMAL_STATUS_CRITICAL</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_UNSUPPORTED_WHEN_POWER_SAVE_MODE</property>
+            <property>com.android.server.policy.PROPERTY_POLICY_AVAILABLE_FOR_APP_REQUEST</property>
+            <property>com.android.server.policy.PROPERTY_FOLDABLE_DISPLAY_CONFIGURATION_INNER_PRIMARY</property>
+            <property>com.android.server.policy.PROPERTY_FEATURE_DUAL_DISPLAY_INTERNAL_DEFAULT</property>
         </properties>
     </device-state>
 </device-state-config>
